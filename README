@@ -3,7 +3,7 @@
 // create date: 2011-07-27
 // about the project: share to Chinese sns services: weibo, t.qq.com, etc.
 
-DEMO: http://lta0.com/projects/share2sns_cn/
+DEMO: http://lta0.com/share2sns_cn/
 
 js:
 <script src="js/jquery-1.6.2.min.js"></script>
@@ -11,17 +11,17 @@ js:
 
 html:
 <div>
-	<a title="·ÖÏíµ½ÐÂÀËÎ¢²©" id="share_tsina" href="#" target="_blank"><img src="img/share2sns/s01.png"></a> 
-	<a title="·ÖÏíµ½ÐÂÌÚÑ¶Î¢²©" id="share_tqq" href="#" target="_blank"><img src="img/share2sns/s02.png"></a> 
-	<a title="·ÖÏíµ½QQ¿Õ¼ä" id="share_qzone" href="#" target="_blank"><img src="img/share2sns/s03.png"></a> 
-	<a title="·ÖÏíµ½ÐÂÈËÈËÍø" id="share_renren" href="#" target="_blank"><img src="img/share2sns/s04.png"></a> 
-	<a title="·ÖÏíµ½¿ªÐÄÍø" id="share_kaixin001" href="#" target="_blank"><img src="img/share2sns/s05.png"></a> 
-	<a title="·ÖÏíµ½ÍøÒ×Î¢²©" id="share_t163" href="#" target="_blank"><img src="img/share2sns/s06.png"></a> 
-	<a title="·ÖÏíµ½ËÑºüÎ¢²©" id="share_tsohu" href="#" target="_blank"><img src="img/share2sns/s07.png"></a> 
-	<a title="·ÖÏíµ½ÌÚÑ¶ÅóÓÑ" id="share_txpengyou" href="#" target="_blank"><img src="img/share2sns/s08.png"></a>
+	<a title="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½" id="share_tsina" href="#" target="_blank"><img src="img/share2sns/s01.png"></a> 
+	<a title="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¶Î¢ï¿½ï¿½" id="share_tqq" href="#" target="_blank"><img src="img/share2sns/s02.png"></a> 
+	<a title="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½QQï¿½Õ¼ï¿½" id="share_qzone" href="#" target="_blank"><img src="img/share2sns/s03.png"></a> 
+	<a title="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" id="share_renren" href="#" target="_blank"><img src="img/share2sns/s04.png"></a> 
+	<a title="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" id="share_kaixin001" href="#" target="_blank"><img src="img/share2sns/s05.png"></a> 
+	<a title="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½" id="share_t163" href="#" target="_blank"><img src="img/share2sns/s06.png"></a> 
+	<a title="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñºï¿½Î¢ï¿½ï¿½" id="share_tsohu" href="#" target="_blank"><img src="img/share2sns/s07.png"></a> 
+	<a title="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¶ï¿½ï¿½ï¿½ï¿½" id="share_txpengyou" href="#" target="_blank"><img src="img/share2sns/s08.png"></a>
 	
-	<!-- ¿ÉÑ¡Ìí¼ÓÄ¬ÈÏ·ÖÏíÎÄ×ÖºÍÍ¼Æ¬
-	<input id="share2sns_cn_text" value="×Ô¶¨Òå·ÖÏíÎÄ×Ö" type="hidden" /> 
-	<input id="share2sns_cn_img" value="Í¼Æ¬µØÖ·" type="hidden" /> 
+	<!-- ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½Ï·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öºï¿½Í¼Æ¬
+	<input id="share2sns_cn_text" value="ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" type="hidden" /> 
+	<input id="share2sns_cn_img" value="Í¼Æ¬ï¿½ï¿½Ö·" type="hidden" /> 
 	-->
 </div>
