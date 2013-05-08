@@ -4,24 +4,3 @@
 // about the project: share to Chinese sns services: weibo, t.qq.com, etc.
 
 DEMO: http://lta0.com/share2sns_cn/
-
-js:
-<script src="js/jquery-1.6.2.min.js"></script>
-<script src="js/share2sns.js" type="text/javascript"></script>
-
-html:
-<div>
-	<a title="����������΢��" id="share_tsina" href="#" target="_blank"><img src="img/share2sns/s01.png"></a> 
-	<a title="����������Ѷ΢��" id="share_tqq" href="#" target="_blank"><img src="img/share2sns/s02.png"></a> 
-	<a title="������QQ�ռ�" id="share_qzone" href="#" target="_blank"><img src="img/share2sns/s03.png"></a> 
-	<a title="��������������" id="share_renren" href="#" target="_blank"><img src="img/share2sns/s04.png"></a> 
-	<a title="������������" id="share_kaixin001" href="#" target="_blank"><img src="img/share2sns/s05.png"></a> 
-	<a title="����������΢��" id="share_t163" href="#" target="_blank"><img src="img/share2sns/s06.png"></a> 
-	<a title="�������Ѻ�΢��" id="share_tsohu" href="#" target="_blank"><img src="img/share2sns/s07.png"></a> 
-	<a title="��������Ѷ����" id="share_txpengyou" href="#" target="_blank"><img src="img/share2sns/s08.png"></a>
-	
-	<!-- ��ѡ����Ĭ�Ϸ������ֺ�ͼƬ
-	<input id="share2sns_cn_text" value="�Զ�����������" type="hidden" /> 
-	<input id="share2sns_cn_img" value="ͼƬ��ַ" type="hidden" /> 
-	-->
-</div>
