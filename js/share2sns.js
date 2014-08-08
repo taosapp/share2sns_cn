@@ -83,7 +83,7 @@
 			    if (!url) {
 			        url = window.location.pathname;
 			    }
-			    return 'page/weixin_share.html?url=' + pageUrl;
+			    return 'page/weixin_share.html?url=' + url;
 			};
 		//console.log(tsinaVal());
 		$("#share_tsina").attr("href",tsinaVal()).attr("target","_blank").attr("title","分享到新浪微博");
