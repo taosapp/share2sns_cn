@@ -76,6 +76,14 @@
 				// var share_img = encodeURI("../img/share2sns_cn.png");
 				var _u = _shareUrl+'image='+share_img+'&href='+share_currentUrl+'&name='+share_titleVal;
 				return _u;
+			},
+			weixinVal = function(){
+			    // 查找是否有自定义url，如果没有，则使用当前页url
+			    var url = $("#share2sns_cn_url").val();
+			    if (!url) {
+			        url = window.location.pathname;
+			    }
+			    return 'page/weixin_share.html?url=' + url;
 			};
 		//console.log(tsinaVal());
 		$("#share_tsina").attr("href",tsinaVal()).attr("target","_blank").attr("title","分享到新浪微博");
@@ -87,6 +95,7 @@
 		$("#share_tsohu").attr("href",tsohuVal()).attr("target","_blank").attr("title","分享到搜狐微博");
 		$("#share_txpengyou").attr("href",txpengyouVal()).attr("target","_blank").attr("title","分享到腾讯朋友");
 		$("#share_douban").attr("href",doubanVal()).attr("target","_blank").attr("title","分享到豆瓣微博");
+		$("#share_weixin").attr("href",weixinVal()).attr("target","_blank");
 	});
 	
 })()
