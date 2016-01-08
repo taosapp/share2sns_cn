@@ -15,7 +15,7 @@
 		if(!share_img){
 			share_img =encodeURI("http://ww2.sinaimg.cn/mw600/61050a76gw1dpj74ng2tdj.jpg"); //分享默认图片
 		}
-		
+
 		var share_titleVal = encodeURI(share_title),
 			share_currentUrl = document.location;
 
@@ -81,7 +81,7 @@
 			    // 查找是否有自定义url，如果没有，则使用当前页url
 			    var url = $("#share2sns_cn_url").val();
 			    if (!url) {
-			        url = window.location.pathname;
+			        url = window.location;
 			    }
 			    return 'page/weixin_share.html?url=' + url;
 			};
@@ -97,5 +97,5 @@
 		$("#share_douban").attr("href",doubanVal()).attr("target","_blank").attr("title","分享到豆瓣微博");
 		$("#share_weixin").attr("href",weixinVal()).attr("target","_blank");
 	});
-	
+
 })()
