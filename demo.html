@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="中国社交平台分享代码，包括微信分享、微博分享和豆瓣分享。">
+<title>Share2sns_cn - share to Chinese sns services: weibo, t.qq.com, etc.</title>
+<style>
+    html, body {margin: 0;}
+    body {font:normal 16px/1.8 "Microsoft Yahei","Lucida Grande",Tahoma,Verdana,STXihei,hei;text-align: center;}
+    h1,h2 {padding: 10px; margin: 0;}
+    p {padding: 20px; margin: 0;}
+    a {color: #333;}
+    textarea {width: 100%;}
+    .hide {display: none !important;}
+
+    .sharerow {position: relative;}
+    .sharerow a {display: inline-block; margin: 0 10px;}
+    .qrcode {
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        width: 140px;
+        height: 140px;
+        background-color: #ffffff;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,.3);
+        border-radius: 4px;
+    }
+    .sharerow .qrcode p {
+        font-size: 12px;
+        color: #000;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    .qrcode canvas {margin-bottom: 5px;}
+    .qrcode.show {display: block;}
+
+    .demowrap {
+        text-align: left;
+        background-color: #eee;
+        margin-top: 50px; padding: 20px;
+    }
+    .demowrap textarea.n1 {height: 120px;}
+    .demowrap textarea.n2 {height: 320px;}
+
+    /* weixin share overlay*/
+    .overlay-wxshare {position:fixed; top:0; bottom:0; left:0; right:0; background:rgba(20,20,20,.95) none 0 0; z-index:150;}
+    .wxmenu-tips{position:absolute; right:0; top:0; width:100px; height:100px; background:url(assets/icon-tips.png) no-repeat; background-size: 100%;}
+    .tips-text {margin-top:100px;}
+    .tips-text p {width:100%; text-align:center; color:#fff; font-size:1.4em; line-height:2em; padding: 0;}
+
+    @media screen and (min-width: 768px) {
+        /* 大于等于768的设备 */
+        .sharerow{
+            width: 560px;
+            margin: 0 auto;
+        }
+        .demowrap {
+            padding: 20px 20%;
+        }
+    }
+</style>
+</head>
+<body>
+
+<h1>share to Chinese social network</h1>
+<p>The share script include weichat, weibo, douban. </p>
+
+<h2>Demo:</h2>
+<div class="sharerow">
+    <div class="qrcode"><canvas id="qr"></canvas></div>
+    <a title="分享到微信" id="share_weixin" href="#"><img src="assets/icon-weixin.png"></a>
+    <a title="分享到新浪微博" id="share_tsina" href="#" target="_blank"><img src="assets/icon-weibo.png"></a>
+    <a title="分享到豆瓣微博" id="share_douban" href="#" target="_blank"><img src="assets/icon-dou.png"></a>
+    <a title="分享到QQ空间" id="share_qzone" href="#" target="_blank"><img src="assets/icon-qzone.png"></a>
+
+</div>
+
+<div class="demowrap">
+    <h3>js</h3>
+    <textarea class="n1">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+<script src="assets/qrious.min.js"></script>
+<script src="assets/share.js"></script>
+    </textarea>
+
+    <h3>html</h3>
+    <textarea class="n2">
+<a title="分享到微信" id="share_weixin" href="#"><img src="assets/icon-weixin.png"></a>
+<a title="分享到新浪微博" id="share_tsina" href="#" target="_blank"><img src="assets/icon-weibo.png"></a>
+<a title="分享到豆瓣微博" id="share_douban" href="#" target="_blank"><img src="assets/icon-douban.png"></a>
+<a title="分享到QQ空间" id="share_qzone" href="#" target="_blank"><img src="assets/icon-qzone.png"></a>
+    </textarea>
+</div>
+
+<footer>
+    <p><a href="https://github.com/taosapp/share2sns_cn">share2sns_cn@Github</a></p>
+</footer>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+<script src="assets/qrious.min.js"></script>
+<script src="assets/share.js"></script>
+
+</body>
+</html>
